@@ -17,7 +17,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Calculate number of Mars years a person has been alive to the nearest tenth  | 02/14/2001  | 10.0 years |
 | Calculate number of Jupiter years a person has been alive to the nearest tenth  | 11/8/1966  | 4.5 years |
 | Calculate user's life expectancy  | 02/14/2001, North America, Male  | 76 years |
-<!-- | Calculate how long the user has left to live on each planet | 02/14/2001, North America, Male  | 63 Earth years, 261 Mercury years, 102 Venus years, 33 Mars years, 5 Jupiter years | -->
+| Calculate how long the user has left to live on each planet | 02/14/2001, North America, Male  | 58 Earth years, 237.4 Mercury years, 92.8 Venus years, 30.4 Mars years, 4.9 Jupiter years |
 
 ## Setup/Installation Requirements
 

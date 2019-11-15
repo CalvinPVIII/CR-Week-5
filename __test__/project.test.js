@@ -59,11 +59,11 @@ describe ('Life Expectancy', () => {
   });
 });
 
-// describe ('Years Left on Each Plantet', () => {
-//   test ("Should return an array of numbers that correlate to the years left a person has on for each planet.", () => {
-//     let date = new Date ('February 14 2001');
-//     let person = new Person (date, );
-//     person.findDaysAlive();
-//     expect(person.yearsLeft).toEqual([63, 261, 102, 33, 5]);
-//   });
-// });
+describe ('Years Left on Each Plantet', () => {
+  test ("Should return an array of numbers that correlate to the years left a person has on for each planet.", () => {
+    let date = new Date ('February 14 2001');
+    let person = new Person (date, 76, 0 );
+    person.findDaysAlive();
+    expect(person.yearsLeft).toEqual([58, 237.4, 92.8, 30.4, 4.9]);
+  });
+});
