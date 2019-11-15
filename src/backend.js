@@ -1,4 +1,4 @@
-class Person {
+export class Person {
   constructor(birthday) {
     this.birthday = birthday;
     this.days = 0;
@@ -11,7 +11,7 @@ class Person {
 }
 
 Person.prototype.findDaysAlive = function () {
-  let milliseconds = date.now() - this.birthday.getTime();
+  let milliseconds = Date.now() - this.birthday.getTime();
   this.days = Math.round(milliseconds / 8.64e+7);
 
 };
