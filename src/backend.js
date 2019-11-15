@@ -11,7 +11,6 @@ export class Person {
 }
 
 Person.prototype.findDaysAlive = function () {
-  let milliseconds = Date.now() - this.birthday.getTime();
-  this.days = Math.round(milliseconds / 8.64e+7);
+  this.days = Math.round((Date.now() - this.birthday.getTime()) / 8.64e+7);
 
 };
