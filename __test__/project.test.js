@@ -18,3 +18,13 @@ describe ('Number of Mercury Years Function', () => {
     expect(person.mercuryYears).toEqual("77.8");
   });
 });
+
+describe ('Number of Venus Years Function', () => {
+  test ("Should return person's age in Venus years", () => {
+    let date = new Date ('February 14 2001');
+    let person = new Person (date);
+    person.findDaysAlive();
+    person.findVenusYears();
+    expect(person.mercuryYears).toEqual("30.4");
+  });
+});

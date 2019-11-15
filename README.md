@@ -12,8 +12,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Behavior  | Input  | Output  |
 |---|---|---|
 | Calculate number of days person has been alive  | 02/14/2001   | 6848 days  |
-| Calculate number of Mercury Years a person has been alive  | 02/14/2001  | 77 |
-|   |   |   |
+| Calculate number of Mercury years a person has been alive to the nearest tenth | 02/14/2001  | 77.8 |
+|  Calculate number of Venus years a person has been alive to the nearest tenth | 02/14/2001  | 30.4 |
 |   |   |   |
 
 ## Setup/Installation Requirements
