@@ -15,6 +15,6 @@ describe ('Number of Mercury Years Function', () => {
     let person = new Person (date);
     person.findDaysAlive();
     person.findMercuryYears();
-    expect(person.mercuryYears).toEqual(77);
+    expect(person.mercuryYears).toEqual("77.8");
   });
 });

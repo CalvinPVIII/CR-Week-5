@@ -16,5 +16,5 @@ Person.prototype.findDaysAlive = function () {
 };
 
 Person.prototype.findMercuryYears = function () {
-  
+  this.mercuryYears = (this.days / 88).toFixed(1); 
 }
