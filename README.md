@@ -12,7 +12,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Behavior  | Input  | Output  |
 |---|---|---|
 | Calculate number of days person has been alive  | 02/14/2001   | 6848 days  |
-|   |   |   |
+| Calculate number of Mercury Years a person has been alive  | 02/14/2001  | 77 |
 |   |   |   |
 |   |   |   |
 

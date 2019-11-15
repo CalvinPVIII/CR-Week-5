@@ -14,3 +14,7 @@ Person.prototype.findDaysAlive = function () {
   this.days = Math.round((Date.now() - this.birthday.getTime()) / 8.64e+7);
 
 };
+
+Person.prototype.findMercuryYears = function () {
+  
+}
