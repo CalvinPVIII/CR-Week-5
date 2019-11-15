@@ -64,6 +64,9 @@ describe ('Years Left on Each Plantet', () => {
     let date = new Date ('February 14 2001');
     let person = new Person (date, 76, 0 );
     person.findDaysAlive();
-    expect(person.yearsLeft).toEqual([58, 237.4, 92.8, 30.4, 4.9]);
+    person.getLifeExpectancy();
+    person.howManyYearsLeft();
+    console.log(person);
+    expect(person.yearsLeft).toEqual(["57.2", "237.4", "92.9", "30.4", "4.9"]);
   });
 });
