@@ -35,7 +35,7 @@
       </label>
       <label>
         Year
-        <input type="number" id="year" min="1">
+        <input type="number" id="year" min="1" max="2019">
       </label>
       <h4>Where do you live?</h4>
       <select id="continent">
@@ -54,6 +54,38 @@
       <br>
       <button type="submit" name="button">Submit</button>
     </form>
+    <div class="result-age-on-planets">
+      <h4>You Are:</h4>
+      <ul>
+        <li><span id="daysOld"></span> days old.</li>
+        <li><span id="mercuryYears"> </span> years old on Mercury.</li>
+        <li><span id="venusYears"> </span> years old on Venus.</li>
+        <li><span id="marsYears"> </span> years old on Mars.</li>
+        <li><span id="jupiterYears"> </span> years old on Jupiter.</li>
+      </ul>
+    </div>
+    <div class="result-younger-expectancy">
+      <h4>You Have:</h4>
+      <ul>
+        <li><span id="earthLeft"></span> years left in Earth years.</li>
+        <li><span id="mercuryLeft"></span> years left in Mercury years.</li>
+        <li><span id="venusLeft"></span> years left in Venus years.</li>
+        <li><span id="marsLeft"></span> years left in Mars years.</li>
+        <li><span id="jupiterLeft"></span> years left in Jupiter years.</li>
+      </ul>
+    </div>
+    <div class="result-older-expectancy">
+      <h4>You Have:</h4>
+      <ul>
+        <li>Outlived the average life expectancy on Earth by by <span id="earthExtra"></span> years.</li>
+        <li>Outlived the average life expectancy on Mercury by by <span id="mercuryExtra"></span> years.</li>
+        <li>Outlived the average life expectancy on Venus by by <span id="venusExtra"></span> years.</li>
+        <li>Outlived the average life expectancy on Mars by by <span id="marsExtra"></span> years.</li>
+        <li>Outlived the average life expectancy on Jupiter by by <span id="jupiterExtra"></span> years.</li>
+      </ul>
+
+    </div>
+
   </div>
 
 </body>
