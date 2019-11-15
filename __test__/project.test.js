@@ -5,7 +5,7 @@ describe ('Number of Days Alive Function', () => {
     let date = new Date ('February 14 2001');
     let person = new Person (date);
     person.findDaysAlive();
-    expect(person.days).toEqual(6848);
+    expect(person.days).toEqual(6849);
   });
 });
 
@@ -60,7 +60,7 @@ describe ('Life Expectancy', () => {
 });
 
 describe ('Years Left on Each Planet', () => {
-  test ("Should return an array of numbers that correlate to the years left a person has on for each planet.", () => {
+  test ("Should return an array of numbers that correlate to the years left a person has on for each planet, or how many years they have lived passed life expectancy", () => {
     let date = new Date ('February 14 2001');
     let person = new Person (date, 76, 0 );
     person.findDaysAlive();

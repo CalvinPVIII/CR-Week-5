@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Solar Birthday</title>
-  </head>
-  <body>
-<div class="container">
-  <h1>Solar Birthday</h1>
-<form id="userInfo">
-<!-- Add birthday form inputs -->
-<select id="userConintent">
-  <option value="76">North America</option>
-  <option value="76">Oceania</option>
-  <option value="75">Europe</option>
-  <option value="72">South America</option>
-  <option value="71">Asia</option>
-  <option value="61">Africa</option>
-</select>
-<select id="gender">
-  <option value="0">Male</option>
-  <option value="5">Female</option>
-</select>
-</form>
-</div>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Solar Birthday</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Solar Birthday</h1>
+    <h3>Please Enter your information below:</h3>
+    <form id="userInfo">
+      <h4>When where you born?</h4>
+      <label>
+        Month
+        <select id="month">
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">July</option>
+          <option value="August">August</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option>
+        </select>
+      </label>
+      <label>
+        Day
+        <input type="number" id="day" min="1" max="31">
+      </label>
+      <label>
+        Year
+        <input type="number" id="year" min="1">
+      </label>
+      <h4>Where do you live?</h4>
+      <select id="continent">
+        <option value="76">North America</option>
+        <option value="77">Oceania</option>
+        <option value="75">Europe</option>
+        <option value="72">South America</option>
+        <option value="71">Asia</option>
+        <option value="61">Africa</option>
+      </select>
+      <h4>What is your gender?</h4>
+      <select id="gender">
+        <option value="0">Male</option>
+        <option value="5">Female</option>
+      </select>
+      <br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </div>
+
+</body>
+
 </html>
