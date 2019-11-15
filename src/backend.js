@@ -27,5 +27,5 @@ Person.prototype.findMarsYears = function () {
 }
 
 Person.prototype.findJupiterYears = function () {
-
+  this.jupiterYears = (this.days / 4300).toFixed(1);
 }
