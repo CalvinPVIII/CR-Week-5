@@ -25,6 +25,6 @@ describe ('Number of Venus Years Function', () => {
     let person = new Person (date);
     person.findDaysAlive();
     person.findVenusYears();
-    expect(person.mercuryYears).toEqual("30.4");
+    expect(person.venusYears).toEqual("30.4");
   });
 });
