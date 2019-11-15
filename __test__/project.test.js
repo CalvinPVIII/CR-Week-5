@@ -48,3 +48,22 @@ describe ('Number of Jupiter Years Function', () => {
     expect(person.jupiterYears).toEqual("4.5");
   });
 });
+
+describe ('Life Expectancy', () => {
+  test ("Should return the user's life expectancy", () => {
+    let date = new Date ('February 14 2001');
+    let person = new Person (date, "na", "m");
+    person.findDaysAlive();
+    person.getLifeExpectancy();
+    expect(person.lifeExpectancy).toEqual(76);
+  });
+});
+
+// describe ('Years Left on Each Plantet', () => {
+//   test ("Should return an array of numbers that correlate to the years left a person has on for each planet.", () => {
+//     let date = new Date ('February 14 2001');
+//     let person = new Person (date, );
+//     person.findDaysAlive();
+//     expect(person.yearsLeft).toEqual([63, 261, 102, 33, 5]);
+//   });
+// });
