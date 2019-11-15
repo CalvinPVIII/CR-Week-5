@@ -35,7 +35,7 @@ Person.prototype.findJupiterYears = function () {
 };
 
 Person.prototype.getLifeExpectancy = function () {
-
+  this.lifeExpectancy = this.gender + this.continent
 }
 
 Person.prototype.howManyYearsLeft = function () {

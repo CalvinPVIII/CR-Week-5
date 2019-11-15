@@ -52,7 +52,7 @@ describe ('Number of Jupiter Years Function', () => {
 describe ('Life Expectancy', () => {
   test ("Should return the user's life expectancy", () => {
     let date = new Date ('February 14 2001');
-    let person = new Person (date, "na", "m");
+    let person = new Person (date, 76, 0);
     person.findDaysAlive();
     person.getLifeExpectancy();
     expect(person.lifeExpectancy).toEqual(76);
