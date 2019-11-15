@@ -35,6 +35,6 @@ describe ('Number of Mars Years Function', () => {
     let person = new Person (date);
     person.findDaysAlive();
     person.findMarsYears();
-    expect(person.marsYears).toEqual("9.9");
+    expect(person.marsYears).toEqual("10.0");
   });
 });
