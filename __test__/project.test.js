@@ -28,3 +28,13 @@ describe ('Number of Venus Years Function', () => {
     expect(person.venusYears).toEqual("30.4");
   });
 });
+
+describe ('Number of Mars Years Function', () => {
+  test ("Should return person's age in Mars years", () => {
+    let date = new Date ('February 14 2001');
+    let person = new Person (date);
+    person.findDaysAlive();
+    person.findMarsYears();
+    expect(person.marsYears).toEqual("9.9");
+  });
+});

@@ -22,3 +22,7 @@ Person.prototype.findMercuryYears = function () {
 Person.prototype.findVenusYears = function () {
    this.venusYears = (this.days / 225).toFixed(1);
 }
+
+Person.prototype.findMarsYears = function () {
+
+}
