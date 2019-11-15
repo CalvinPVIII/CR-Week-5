@@ -38,3 +38,13 @@ describe ('Number of Mars Years Function', () => {
     expect(person.marsYears).toEqual("10.0");
   });
 });
+
+describe ('Number of Jupiter Years Function', () => {
+  test ("Should return person's age in Jupiter years", () => {
+    let date = new Date ('November 11 1966');
+    let person = new Person (date);
+    person.findDaysAlive();
+    person.findJupiterYears();
+    expect(person.jupiterYears).toEqual("4.5");
+  });
+});

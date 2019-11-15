@@ -25,3 +25,7 @@ Person.prototype.findVenusYears = function () {
 Person.prototype.findMarsYears = function () {
   this.marsYears = (this.days / 687).toFixed(1);
 }
+
+Person.prototype.findJupiterYears = function () {
+
+}

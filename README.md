@@ -14,7 +14,8 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 | Calculate number of days person has been alive  | 02/14/2001   | 6848 days  |
 | Calculate number of Mercury years a person has been alive to the nearest tenth | 02/14/2001  | 77.8 years |
 | Calculate number of Venus years a person has been alive to the nearest tenth | 02/14/2001  | 30.4 years |
-| Calculate number of Mars years a person has been alive to the nearest tenth  | 11/8/1966  | 9.9 years |
+| Calculate number of Mars years a person has been alive to the nearest tenth  | 02/14/2001  | 10.0 years |
+| Calculate number of Jupiter years a person has been alive to the nearest tenth  | 11/8/1966  | 4.5 years |
 
 ## Setup/Installation Requirements
 
