@@ -1,5 +1,5 @@
 {
-  "name": "sudoku",
+  "name": "SolarBirthday",
   "version": "1.0.0",
   "description": "",
   "main": "webpack.config.js",
@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "keywords": [],
-  "author": "Calvin & Mike",
+  "author": "Calvin",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -30,7 +30,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
-    "particles.js": "^2.0.0",
     "popper.js": "^1.16.0"
   }
 }
