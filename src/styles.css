@@ -1,12 +1,12 @@
 body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  background-color: #0f0f0f;
+  color: #e3e3e3;
 }
 
-#particles-js {
-  background: #0f0f0f;
+button {
+  margin-top: 10px;
 }
+
 .result-age-on-planets, .result-younger-expectancy, .result-older-expectancy {
   display: none;
 }
