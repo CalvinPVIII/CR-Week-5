@@ -12,10 +12,10 @@ _Solar Birthday is a web application that will display the user's given age in y
 | Behavior  | Input  | Output  |
 |---|---|---|
 | Calculate number of days person has been alive  | 02/14/2001   | 6848 days  |
-| Calculate number of Mercury years a person has been alive to the nearest tenth | 02/14/2001  | 77.8 years |
-| Calculate number of Venus years a person has been alive to the nearest tenth | 02/14/2001  | 30.4 years |
-| Calculate number of Mars years a person has been alive to the nearest tenth  | 02/14/2001  | 10.0 years |
-| Calculate number of Jupiter years a person has been alive to the nearest tenth  | 11/8/1966  | 4.5 years |
+| Calculate number of Mercury years a person has been alive to the nearest tenth | 02/14/2001  | 77.8 Mercury years old |
+| Calculate number of Venus years a person has been alive to the nearest tenth | 02/14/2001  | 30.4 Venus years old  |
+| Calculate number of Mars years a person has been alive to the nearest tenth  | 02/14/2001  | 10.0 Mars years old |
+| Calculate number of Jupiter years a person has been alive to the nearest tenth  | 11/8/1966  | 4.5 Jupiter years old |
 | Calculate user's life expectancy  | 02/14/2001, North America, Male  | 76 years |
 | Calculate how long the user has left to live on each planet | 02/14/2001, North America, Male  | 57.2 Earth years, 237.4 Mercury years, 92.8 Venus years, 30.4 Mars years, 4.9 Jupiter years |
 
@@ -27,7 +27,7 @@ _Solar Birthday is a web application that will display the user's given age in y
 * _Run the command "npm start"_
 
 
-_For Mac users, if you are having trouble getting the application to load, open the "package.json" file and change the "&" on line 8 to a ";"
+_For Mac users, if you are having trouble getting the application to load, open the "package.json" file and change the "&" on line 8 to a ";"_
 
 ## Known Bugs
 
