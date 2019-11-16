@@ -20,7 +20,7 @@ Person.prototype.findDaysAliveAndAgeOnEachPlanetAndLifeExpectancyAndYearsLeftOnE
   this.venusYears = (this.days / 225).toFixed(1);
   this.marsYears = (this.days / 687).toFixed(1);
   this.jupiterYears = (this.days / 4300).toFixed(1);
-  this.lifeExpectancy = this.gender + this.continent
+  this.lifeExpectancy = this.gender + this.continent;
   let daysLeft = (this.lifeExpectancy * 365) - this.days;
-  this.yearsLeft = [(daysLeft/365).toFixed(1), (daysLeft/88).toFixed(1), (daysLeft/225).toFixed(1), (daysLeft/687).toFixed(1), (daysLeft/4300).toFixed(1)]
-}
+  this.yearsLeft = [(daysLeft/365).toFixed(1), (daysLeft/88).toFixed(1), (daysLeft/225).toFixed(1), (daysLeft/687).toFixed(1), (daysLeft/4300).toFixed(1)];
+};
