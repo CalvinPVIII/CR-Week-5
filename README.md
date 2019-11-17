@@ -44,7 +44,6 @@ _For questions, comments, or concerns, email me at calvinp003@gmail.com_
 * _JavaScript_
 * _JQuery_
 * _Bootstrap_
-* _Particles.JS_
 
 ### License
 
