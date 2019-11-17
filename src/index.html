@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
   <title>Solar Birthday</title>
 </head>
 
@@ -55,7 +56,7 @@
       <button type="submit" name="button">Submit</button>
     </form>
     <div class="result-age-on-planets">
-      <h4>You Are:</h4>
+      <h4 class="result">You Are:</h4>
       <ul>
         <li><span id="daysOld"></span> days old.</li>
         <li><span id="mercuryYears"> </span> years old on Mercury.</li>
@@ -65,7 +66,7 @@
       </ul>
     </div>
     <div class="result-younger-expectancy">
-      <h4>You Have:</h4>
+      <h4 class="result">You Have:</h4>
       <ul>
         <li><span id="earthLeft"></span> years left in Earth years.</li>
         <li><span id="mercuryLeft"></span> years left in Mercury years.</li>
@@ -75,7 +76,7 @@
       </ul>
     </div>
     <div class="result-older-expectancy">
-      <h4>You Have:</h4>
+      <h4 class="result">You Have:</h4>
       <ul>
         <li>Outlived the average life expectancy on Earth by by <span id="earthExtra"></span> years.</li>
         <li>Outlived the average life expectancy on Mercury by by <span id="mercuryExtra"></span> years.</li>
@@ -85,9 +86,9 @@
       </ul>
 
     </div>
-
+    <div class="error">
+      <h4>Please enter a valid date</h4>
   </div>
-
 </body>
 
 </html>
