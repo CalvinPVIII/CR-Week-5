@@ -52,7 +52,10 @@ $(document).ready(function() {
     e.preventDefault();
     let userBirthdate = new Date(`${$("#month").val()} ${$("#day").val()} ${$("#year").val()}`);
     let userInformation = new Person(userBirthdate, parseInt($("#continent").val()), parseInt($("#gender").val()));
-    userInformation.findDaysAliveAndAgeOnEachPlanetAndLifeExpectancyAndYearsLeftOnEachPlanet();
+    userInformation.findDaysAlive();
+    userInformation.findAgeOnEachPlanet();
+    userInformation.getLifeExpectancy();
+    userInformation.howManyYearsLeft();
     uiChanger(userInformation);
   });
 });
