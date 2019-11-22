@@ -31,7 +31,7 @@ _For Mac users, if you are having trouble getting the application to load, open 
 
 ## Known Bugs
 
-_Currently particles.js is not functional_
+_Currently there are no known bugs_
 
 ## Support and contact details
 
